@@ -1,6 +1,6 @@
 {
   "name": "fannypack-less",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -15,9 +15,8 @@
     "type": "git",
     "url": "git://github.com/lukeed/fannypack-less.git"
   },
-  "tags": ["gulp", "less compiler", "gulp-less", "fannypack", "webpack"],
-  "devDependencies": {
-    "gulp": "^3.9.0",
+  "keywords": ["gulp", "less compiler", "gulp-less", "fannypack", "webpack"],
+  "dependencies": {
     "gulp-less": "^3.0.3"
   }
 }
