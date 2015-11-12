@@ -4,7 +4,7 @@ var $         = Fannypack.$
 
 var less      = require('gulp-less')
 
-module.exports = function(config){
+Fannypack.Tasks['less'] = function(config){
   if(!config.less) return
 
   var paths = {
